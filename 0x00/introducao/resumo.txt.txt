@@ -1,0 +1,5 @@
+Os microsserviços são uma forma moderna de desenvolver sistemas, onde a aplicação é dividida em partes menores e independentes, cada uma responsável por uma função específica. Diferente da arquitetura monolítica, que concentra tudo em um único bloco de código, os microsserviços permitem que cada parte seja atualizada, implantada e escalada separadamente, sem afetar o restante do sistema.
+
+Essa arquitetura traz várias vantagens. A primeira é a escalabilidade, já que você pode aumentar recursos apenas nos serviços mais usados. A segunda é a resiliência, pois se um serviço falhar, o sistema todo não para. E a terceira é a agilidade no desenvolvimento, pois times diferentes podem trabalhar em serviços distintos ao mesmo tempo, acelerando entregas e atualizações.
+
+Os microsserviços se comunicam entre si de duas formas principais: de modo síncrono, por meio de chamadas HTTP com APIs REST, ou de forma assíncrona, usando mensagens e eventos. Essa comunicação independente deixa o sistema mais leve e organizado, facilitando a manutenção e o crescimento da aplicação.
